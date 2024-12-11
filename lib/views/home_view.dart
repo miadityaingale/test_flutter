@@ -8,7 +8,7 @@ class HomeView extends StatelessWidget {
     return Material(
       child: Container(
         color: Colors.deepOrange,
-        child: Center(
+        child: const Center(
             child: Text(
           "Hello World",
           style: TextStyle(
